@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: orange;
+    line-height: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40%
+}
+nav h1{
+    color: rgb(111, 100, 85);
+    text-shadow: 2px 1px 2px silver;
+}
+nav ul li a{
+    color: rgb(111, 100, 85);
+    text-shadow: 2px 1px 2px silver;
+}
+@media only screen and (max-width:868px){
+    nav ul{
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+.parent_footer{
+    width: 100vw ;
+    background-color: grey;
+    position: absolute;
+    bottom: 0; 
+    padding: 30px;
+}
+.child-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.child-footer h1:hover{
+    color: orange;
+}
+.child-footer p:hover{
+    color: white;
+}
+.item-1{
+    width: 25%;
+}
+.item-2{
+    width: 25%;
+}
+.item-3{
+    width: 25%;
+}
+.item-4{
+    width: 25%;
+}
+@media only screen and (max-width: 768px){
+    .item-1{
+        width: 50%;
+    }
+    .item-2{
+        width: 50%;
+    }
+    .item-3{
+        width: 50%;
+    }
+    .item-4{
+        width: 50%;
+    } 
+}
+@media only screen and (max-width: 568px){
+    .item-1{
+        width: 100%;
+    }
+    .item-2{
+        width: 100%;
+    }
+    .item-3{
+        width: 100%;
+    }
+    .item-4{
+        width: 100%;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
